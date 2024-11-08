@@ -134,7 +134,7 @@ button{
   backdrop-filter: blur( 4px );
   padding: 4px;
   position: absolute;
-  top: 70px;
+  top: 35px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -187,5 +187,7 @@ button{
   }
 }
 
-
-
+@media(max-width:932px){
+  .colourgroup{
+  top: 0;
+  }}
