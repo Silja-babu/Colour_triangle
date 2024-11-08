@@ -48,12 +48,15 @@ input{
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .circle{
+  width: 20px;
+  height: 20px;
    padding: 10px;
    background: transparent;
    border: 2px solid transparent;
    border-radius: 50%;
-   margin:10px;
+   margin:3px;
    flex-wrap: nowrap;
+   display: inline-block;
 }
 body{
   
