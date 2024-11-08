@@ -8,6 +8,7 @@ body{
   font-weight: bolder;
   line-height: -0.02em;
   text-align: center;
+  
   flex-wrap: nowrap;
   overflow-x: hidden;
   padding-top: 50px;
@@ -20,6 +21,7 @@ body{
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   margin: 30px auto;
   color:rgb(109, 17, 109);
+  
   
 }
 .input{
@@ -48,13 +50,13 @@ input{
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .circle{
-  width: 20px;
-  height: 20px;
+   width: 10px;
+   height: 15px;
    padding: 10px;
    background: transparent;
    border: 2px solid transparent;
    border-radius: 50%;
-   margin:3px;
+   margin:2px;
    flex-wrap: nowrap;
    display: inline-block;
 }
@@ -150,8 +152,9 @@ button{
 @media(max-width:860px){
  
   .circle{
-    padding: 10px;
-    margin: 4px;
+    padding: 2px;
+    margin: 1px;
+    
   }
 }
 @media(max-width:1199px){
@@ -184,8 +187,8 @@ button{
 
 @media(max-width:330px){
   .circle{
-    padding: 5px;
-    margin: 3px;
+    padding: 2px;
+    margin: 1px;
   }
   .input{
     width: 100%;
