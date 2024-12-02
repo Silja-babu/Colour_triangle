@@ -149,6 +149,26 @@ button{
   scrollbar-width: none;
   
 }
+.style-triangle{
+  box-sizing: border-box;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  width: fit-content;
+  position: absolute;
+  text-align: center;
+  right: 14px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  
+}
+.style-triangle button{
+  border: 2px solid ;
+  border-radius: 5px;
+  padding: 10px;
+}
 @media(max-width:860px){
  
   .circle{
@@ -162,13 +182,16 @@ button{
     top: 0;
     bottom: 0;
   }
+  .style-triangle{
+    top: 0;
+  }
 }
 @media(max-width:860px){
-  .colourgroup{
+  .colourgroup,.style-triangle{
     position: unset;
     flex: unset;
     width: fit-content;
-    margin: 0 auto;
+    margin: 10px auto;
   }
   .input{
     box-sizing: border-box;
